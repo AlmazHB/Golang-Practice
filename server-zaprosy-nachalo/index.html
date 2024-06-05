@@ -1,0 +1,31 @@
+<h1>Priwet Sem</h1>
+
+
+<div>
+    <span>click for add new signature  <a href="/html/new">Click</a></span>
+</div>
+
+<div>
+    <ul>
+        <li>
+            <h3>Signatures</h3>
+        </li>
+        <li>
+            <h3>go</h3>
+        </li>
+        <li>
+            <h3>here</h3>
+        </li>
+    </ul>
+</div>
+
+<div>
+    <h2>{{.SignatureCount}}</h2>
+</div>
+<div>
+    <ul>
+        {{range .Signatures}}
+        <li>{{.}}</li>
+        {{end}}
+    </ul>
+</div>
